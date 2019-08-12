@@ -23,7 +23,8 @@ module NetSuite
         :shopzilla_category_id, :show_default_donation_amount, :site_category_list, :sitemap_priority, :soft_descriptor,
         :specials_description, :stock_description, :store_description, :store_detailed_description, :store_display_name,
         :translations_list, :upc_code, :url_component, :use_marginal_rates, :vsoe_deferral, :vsoe_delivered,
-        :vsoe_permit_discount, :vsoe_price, :weight, :weight_unit, :weight_units
+        :vsoe_permit_discount, :vsoe_price, :weight, :weight_unit, :weight_units,
+        :purchase_description
 
       record_refs :billing_schedule, :cost_category, :custom_form, :deferred_revenue_account, :department, :income_account,
         :issue_product, :item_options_list, :klass, :location, :parent, :pricing_group, :purchase_tax_code,
