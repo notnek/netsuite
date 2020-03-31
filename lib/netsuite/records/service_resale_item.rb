@@ -27,7 +27,7 @@ module NetSuite
         :issue_product, :item_options_list, :klass, :location, :parent, :pricing_group, :purchase_tax_code,
         :quantity_pricing_schedule, :rev_rec_schedule, :sale_unit, :sales_tax_code, :store_display_image,
         :store_display_thumbnail, :store_item_template, :tax_schedule, :units_type,
-        :expense_account
+        :expense_account, :purchase_description
 
       field :pricing_matrix, PricingMatrix
       field :custom_field_list, CustomFieldList
